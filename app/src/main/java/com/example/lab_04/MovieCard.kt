@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun MovieCard(
-    title: String = "Inception",
+    title: String = "The Dark Knight",
     year: String = "2010"
 ) {
     Card(
