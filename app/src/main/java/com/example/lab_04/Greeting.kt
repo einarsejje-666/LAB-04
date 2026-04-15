@@ -10,12 +10,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
+// Cambio hecho por Eyner en rama main
 fun Greeting(name: String = "Student") {
     Text(
         text = "Hello, $name! 👋",
         fontSize = 32.sp,
         fontWeight = FontWeight.Bold,
-        color = Color.Blue,                    // ← ahora sí funciona
+        color = Color.Blue,
         modifier = Modifier.padding(24.dp)
     )
 }
