@@ -10,7 +10,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-// Cambio hecho por Eyner en rama main
+// Cambio hecho por Eyner - Resuelto conflicto
 fun Greeting(name: String = "Student") {
     Text(
         text = "Hello, $name! 👋",
